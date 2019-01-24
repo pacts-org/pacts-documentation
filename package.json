@@ -1,0 +1,21 @@
+{
+  "name": "@pacts/pacts-documentation",
+  "version": "0.0.1",
+  "description": "P.A.C.T.S (pages and components tool set) documentation",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pacts-org/pacts-documentation.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon --watch app --watch server.js --watch /Users/benrubin/Projects/pacts/pacts-core/src server.js"
+  },
+  "author": "Ben Rubin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "@pacts/pacts-core": "0.0.1-beta.0"
+  }
+}
